@@ -1,5 +1,6 @@
 title: Sarah Alnegheimish
-email: smish@mit.edu
-linkedin_username: "sarah-alnegheimish-570406152"
-github_username: "sarahmish"
+owner:
+  email: "smish@mit.edu"
+  linkedin: "sarah-alnegheimish-570406152"
+  github: "sarahmish"
 theme: jekyll-theme-minimal
