@@ -68,11 +68,11 @@
 		<p style="float: left;"><img src="/images/profile.jpg" class="img" style="width:170px;"></p>
 
 		<h3 class="site-title">Sarah Alnegheimish</h3><span>
-			I am a Ph.D. student at MIT pursing degree in <a href="https://www.eecs.mit.edu/">Electrical Engineering and Computer Science (EECS)</a>, advised by Dr. Kalyan Veeramachaneni, and a member of the <a href="https://dai.lids.mit.edu/">Data to AI Lab</a> at <a href="https://lids.mit.edu/">LIDS</a>. My research interest is in the field of ML &amp; NLP. I work on applying deep learning to solve various challenges, particularly within time series data. I am also interested in open-source development and in building systems that make machine learning <em>usable</em>.
+			I'm a Ph.D. candidate at MIT pursing degree in <a href="https://www.eecs.mit.edu/">Electrical Engineering and Computer Science (EECS)</a>, advised by Dr. Kalyan Veeramachaneni, and a member of the <a href="https://dai.lids.mit.edu/">Data to AI Lab</a> at <a href="https://lids.mit.edu/">LIDS</a>. My research interest is in the field of applied deep learning, particularly within time series data. Recently, I have been investigating the efficacy of foundation models for unsupervised time series anomaly detection. I am also interested in open-source development and in building systems that make machine learning <em>usable</em>.
 		</span></div>
 	<div class="site-description">
 		<nav class="nav social">
-			<ul class="flat"><a href="mailto:smish@mit.edu" title="Email"><i data-feather="mail"></i></a><a href="https://github.com/sarahmish" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/salnegheimish" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.linkedin.com/in/sarah-alnegheimish-570406152/" title="LinkedIn"><i data-feather="linkedin"></i></a><a href="https://scholar.google.com/citations?user=wleaufEAAAAJ&amp;hl=en" title="Scholar"><i data-feather="bookmark"></i></a><a href="/files/cv.pdf" title="CV"><i data-feather="file"></i></a></ul>
+			<ul class="flat"><a href="mailto:smish@mit.edu" title="Email"><i data-feather="mail"></i></a><a href="https://github.com/sarahmish" title="Github"><i data-feather="github"></i></a><a href="https://twitter.com/salnegheimish" title="Twitter"><i data-feather="twitter"></i></a><a href="https://www.linkedin.com/in/sarah-alnegheimish" title="LinkedIn"><i data-feather="linkedin"></i></a><a href="https://scholar.google.com/citations?user=wleaufEAAAAJ&amp;hl=en" title="Scholar"><i data-feather="bookmark"></i></a><a href="/files/cv.pdf" title="CV"><i data-feather="file"></i></a></ul>
 		</nav>
 	</div>
 
@@ -81,8 +81,40 @@
 			<hr>
 			<div class="introduction" id="projects">
 	
-	<h4>Projects</h4>
+	<h4>Selected Projects</h4>
 	<ul>
+		<li>
+			Large Language Models for Time Series
+			<div>
+			
+			<span class="project_description">
+				Repurposing LLMs for time series tasks. SigLLM is a framework to probe LLMs in finding anomalies in <em>zero-shot</em>. It includes a time-series-to-text conversion module, as well as two paradigms of detection: prompt engineering and forecasting.
+			</span>
+			
+
+			
+			<span class="code_blog">
+				
+				[<a href="https://arxiv.org/abs/2405.14755">paper</a>]
+				
+
+				
+				[<a href="https://github.com/sintel-dev/sigllm">code</a>]
+				
+
+				
+				[<a href="https://news.mit.edu/2024/researchers-use-large-language-models-to-flag-problems-0814">press</a>]				
+
+				
+
+				
+			</span>
+			
+			</div>
+			<br>
+
+		</li>
+
 		<li>
 			ML Frameworks for Time Series
 			<div>
@@ -117,17 +149,21 @@
 			<div>
 			
 			<span class="project_description">
-				Developing Orion, a machine learning library for <em>unsupervised time series anomaly detection</em>. Given time series data, users select from an array of pipelines, including TadGAN and AER, to identify rare patterns.
+				Developing Orion (<strong>1,000 github stars</strong>), a machine learning library for <em>unsupervised time series anomaly detection</em>. Given time series data, users select from an array of pipelines, including TadGAN and AER, to identify rare patterns.
 			</span>
 			
 
 			
 			<span class="code_blog">
 				
-				[<a href="https://arxiv.org/abs/2009.07769">paper</a>]
+				[<a href="https://arxiv.org/abs/2009.07769">TadGAN paper</a>]
 				
 
-				
+
+				[<a href="https://arxiv.org/abs/2212.13558">AER paper</a>]
+
+
+
 				[<a href="https://github.com/signals-dev/Orion">code</a>]
 				
 
@@ -174,45 +210,49 @@
 
 		</li>
 		
-		<li>
-			Predictive Framework for Healthcare Data
-			<div>
-			
-			<span class="project_description">
-				Developing Cardea, an ML framework built on top of schemas that support electronic health records (EHR), such as FHIR. It provides an easy-to-use library to develop ML models for numerous problems by applying series of sequential processes.
-			</span>
-			
-
-			
-			<span class="code_blog">
-				
-				[<a href="https://arxiv.org/abs/2010.00509">paper</a>]
-				
-
-				
-				[<a href="https://github.com/MLBazaar/Cardea">code</a>]
-				
-
-				
-
-				
-				[<a href="https://news.mit.edu/2021/cardea-machine-learning-platform-health-care-data-insights-0409">press</a>]
-				
-			</span>
-			
-			</div>
-			<br>
-
-		</li>
-		
 	</ul></div>
 			<hr>
 			<div class="introduction" id="publications">
 	
-	<h4>Publications</h4><div class="year"></div>
+	<h4>Selected Publications</h4><div class="year"></div>
 
 	<ul style="list-style-type:none;">
-		
+		<li>
+			
+			<a href="https://arxiv.org/abs/2405.14755" class="publications"> Making the End-User a Priority in Benchmarking: OrionBench for Unsupervised Time Series Anomaly Detection </a>
+			
+			<div>
+			<span class="collaborators">
+				<strong>Sarah Alnegheimish</strong>, Laure Berti-Equille, Kalyan Veeramachaneni
+			</span>
+
+			2024 IEEE International Conference on Big Data.
+
+			
+
+			<br>
+			<br>
+			
+		</li>
+
+		<li>
+			
+			<a href="https://arxiv.org/abs/2405.14755" class="publications"> Can Large Language Models be Anomaly Detectors for Time Series? </a>
+			
+			<div>
+			<span class="collaborators">
+				<strong>Sarah Alnegheimish</strong>, Linh Nguyen, Laure Berti-Equille, Kalyan Veeramachaneni
+			</span>
+
+			2024 IEEE International Conference on Data Science and Advanced Analytics (DSAA 2024).
+
+			
+
+			<br>
+			<br>
+			
+		</li>
+
 		<li>
 			
 			<a href="https://arxiv.org/abs/2205.06303" class="publications"> Using Natural Sentence Prompts for Understanding Biases in Language Models </a>
@@ -269,25 +309,7 @@
 		
 		<li>
 			
-			<a href="https://arxiv.org/abs/2104.01980" class="publications"> Probabilistic Programming Bots in Intuitive Physics Game Play </a>
-			
-			<div>
-			<span class="collaborators">
-				Fahad Alhasoun, <strong>Sarah Alnegheimish</strong>
-			</span>
-
-			2021 AAAI Conference on Artificial Intelligence.
-
-			
-
-			<br>
-			<br>
-			
-		</li>
-		
-		<li>
-			
-			<a href="https://arxiv.org/abs/2009.07769" class="publications"> TadGAN: Time Series Anomaly Detection Using Generative Adversarial Networks </a>
+			<a href="https://arxiv.org/abs/2009.07769" class="publications"> TadGAN: Time Series Anomaly Detection Using Generative Adversarial Networks (<strong>345 citations</strong>) </a>
 			
 			<div>
 			<span class="collaborators">
@@ -295,24 +317,6 @@
 			</span>
 
 			2020 IEEE International Conference on Big Data.
-
-			
-
-			<br>
-			<br>
-			
-		</li>
-		
-		<li>
-			
-			<a href="https://arxiv.org/abs/2010.00509" class="publications"> Cardea: An Open Automated Machine Learning Framework for Electronic Health Records </a>
-			
-			<div>
-			<span class="collaborators">
-				<strong>Sarah Alnegheimish</strong>, Najat Alrashed, Faisal Aleissa, Shahad Althobaiti, Dongyu Liu, Mansour Alsaleh, Kalyan Veeramachaneni
-			</span>
-
-			2020 IEEE 7th International Conference on Data Science and Advanced Analytics (DSAA).
 
 			
 
